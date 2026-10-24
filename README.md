@@ -21,7 +21,6 @@ pebble install --cloudpebble   # or --phone <dev-ip>
 ```bash
 cd android
 ./gradlew :app:assembleDebug
-adb uninstall gay.ac1rv.nowplayingart 2>/dev/null
 adb install -r app/build/outputs/apk/debug/app-debug.apk
 ```
 
@@ -30,6 +29,3 @@ If the phone only says **App not installed** (no detail): uninstall any old copy
 Then: open **Now Playing Art** → enable **notification access** → select the watchface → play music.
 
 Works with **Core Pebble** (PebbleKit2 + classic fallback). Also listed: legacy Pebble/Rebble packages if installed.
-
-Package: `gay.ac1rv.nowplayingart`  
-Watch UUID: `59a19257-c680-4ca1-9608-f98ba0471d46`
