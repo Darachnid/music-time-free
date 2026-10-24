@@ -8,13 +8,13 @@ Now Playing Art is inspired by the Apple iPod classic now playing screen—the b
 
 The watchface alone cannot load album art. You **must** install the free companion app on your Android phone:
 
-**[Download the Now Playing Art companion (Android APK)](https://github.com/Darachnid/music-time-free/releases/latest/download/now-playing-art-companion.apk)**
+**[Download the Now Playing Art companion (Android APK)](https://github.com/Darachnid/music-time-free/raw/main/releases/now-playing-art-companion.apk)**
 
 You need an Android phone, the Core Pebble app, the Now Playing Art watchface, and the companion app linked above. Turn on notification access, pick Now Playing Art on your watch, and play music on your phone. Album art appears on the watch within a few seconds.
 
 Now Playing Art works with common Android music apps that send media notifications. Not for iPhone. **Android only.**
 
-This project is **open source** and **free**—no cost, no subscription. Source, watchface, and companion builds live in this repo. **Free** downloads are on the [releases page](https://github.com/Darachnid/music-time-free/releases/latest).
+This project is **open source** and **free**—no cost, no subscription. The companion APK is included in this repo under [`releases/`](releases/now-playing-art-companion.apk). Watchface PBW builds are on the [GitHub releases page](https://github.com/Darachnid/music-time-free/releases/latest).
 
 ---
 
@@ -26,7 +26,7 @@ Install **[Core Pebble](https://play.google.com/store/apps/details?id=coredevice
 
 ### 2. Companion app on your phone (required)
 
-**[Download Now Playing Art companion (Android APK)](https://github.com/Darachnid/music-time-free/releases/latest/download/now-playing-art-companion.apk)**
+**[Download Now Playing Art companion (Android APK)](https://github.com/Darachnid/music-time-free/raw/main/releases/now-playing-art-companion.apk)**
 
 1. Tap the link on your phone (Chrome works well).
 2. If Android asks, allow **Install unknown apps** for your browser or **Files** — that is normal for apps outside the Play Store.
