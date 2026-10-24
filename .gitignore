@@ -1,0 +1,26 @@
+# Pebble SDK build
+/build/
+*.pbw
+.lock-waf*
+.waf-*
+
+# Android
+android/.gradle/
+android/.kotlin/
+android/**/build/
+android/local.properties
+*.apk
+*.aab
+
+# IDE / local
+.idea/
+*.iml
+.DS_Store
+
+# Session/debug artifacts
+*.pid
+cloud-logs.txt
+pebble-logs.txt
+cloud-shot*.png
+live-shot.png
+screenshot_*.png

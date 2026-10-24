@@ -1,0 +1,58 @@
+{
+  "name": "now-playing-art",
+  "author": "AC1RV",
+  "version": "1.0.0",
+  "keywords": ["pebble-app", "music", "album-art", "watchface"],
+  "private": true,
+  "pebble": {
+    "displayName": "Now Playing Art",
+    "uuid": "59a19257-c680-4ca1-9608-f98ba0471d46",
+    "sdkVersion": "3",
+    "targetPlatforms": ["emery"],
+    "watchapp": {
+      "watchface": true
+    },
+    "messageKeys": {
+      "RequestRefresh": 1,
+      "TrackTitle": 10,
+      "TrackArtist": 11,
+      "TrackPositionMs": 12,
+      "TrackDurationMs": 13,
+      "TrackPlaying": 14,
+      "TrackYear": 15,
+      "ImageWidth": 30,
+      "ImageHeight": 31,
+      "ImageDataSize": 32,
+      "ImageChunksTotal": 33,
+      "ImageChunkIndex": 34,
+      "ImageChunkData": 35,
+      "ImageSeq": 36,
+      "ImageComplete": 37
+    },
+    "companionApp": {
+      "android": {
+        "url": "https://github.com/",
+        "apps": [
+          {
+            "package": "gay.ac1rv.nowplayingart"
+          }
+        ]
+      }
+    },
+    "resources": {
+      "media": [
+        {
+          "type": "bitmap",
+          "name": "MENU_ICON",
+          "file": "images/icon.png",
+          "menuIcon": true
+        },
+        {
+          "type": "bitmap",
+          "name": "PLACEHOLDER",
+          "file": "images/placeholder.png"
+        }
+      ]
+    }
+  }
+}

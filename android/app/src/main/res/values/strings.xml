@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Now Playing Art</string>
+    <string name="enable_access_title">Notification access</string>
+    <string name="enable_access_body">Requires the official Pebble phone app (Core Devices) with your watch paired — not Rebble. This companion reads media notifications and sends album art to the watchface.</string>
+    <string name="pebble_app_missing">Install the Pebble app from Core Devices and pair your watch first.</string>
+    <string name="pebble_app_found">Pebble phone app detected: %1$s</string>
+    <string name="open_settings">Open notification access settings</string>
+    <string name="status_enabled">Listening for music — play something on your phone.</string>
+    <string name="status_disabled">Notification access is off. Art will not update until you enable it.</string>
+    <string name="watch_uuid">Watchface UUID: 59a19257-c680-4ca1-9608-f98ba0471d46</string>
+</resources>
